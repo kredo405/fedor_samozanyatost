@@ -287,7 +287,7 @@ const DoorInstallationAndRepairPage: FC = () => {
                 className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600"
                 variants={fadeInUp}
               >
-                <p className="text-gray-700 mb-4 italic">"{review.text}"</p>
+                <p className="text-gray-700 mb-4 italic">{review.text}</p>
                 <p className="font-semibold text-blue-600">{review.name}</p>
               </motion.div>
             ))}

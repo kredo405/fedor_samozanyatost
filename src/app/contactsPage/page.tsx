@@ -1,24 +1,25 @@
 "use client"; // Клиентский компонент для интерактивности формы и анимаций
 
-import { FC, FormEvent, useState } from "react";
+import { FC } from "react";
+// import { FC, FormEvent, useState } from "react";
 import Header from "@/ui/Nav";
 import Form from "@/ui/Form";
 import { motion } from "framer-motion";
 
 const ContactsPage: FC = () => {
-  const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+  // const [name, setName] = useState("");
+  // const [phone, setPhone] = useState("");
+  // const [message, setMessage] = useState("");
+  // const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    console.log("Форма отправлена:", { name, phone, message });
-    setSubmitted(true);
-    setName("");
-    setPhone("");
-    setMessage("");
-  };
+  // const handleSubmit = (e: FormEvent) => {
+  //   e.preventDefault();
+  //   console.log("Форма отправлена:", { name, phone, message });
+  //   setSubmitted(true);
+  //   setName("");
+  //   setPhone("");
+  //   setMessage("");
+  // };
 
   // Варианты анимации
   const fadeInUp = {

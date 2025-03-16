@@ -1,7 +1,6 @@
 "use client"; // Клиентский компонент для анимаций
 
 import { FC } from "react";
-import Image from "next/image";
 import Header from "@/ui/Nav";
 import Form from "@/ui/Form";
 import Link from "next/link";
