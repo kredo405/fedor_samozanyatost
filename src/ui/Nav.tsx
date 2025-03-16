@@ -105,7 +105,7 @@ const Header = () => {
             <motion.div variants={fadeInUp}>
               <Link
                 href="/servicesPage"
-                className="block md:inline-block hover:text-blue-600 py-2 md:py-0 text gray-800"
+                className="block md:inline-block hover:text-blue-600 py-2 md:py-0 text-gray-800"
                 onClick={() => setIsOpen(false)}
               >
                 <motion.span
@@ -120,7 +120,7 @@ const Header = () => {
             <motion.div variants={fadeInUp}>
               <Link
                 href="/contactsPage"
-                className="block md:inline-block hover:text-blue-600 py-2 md:py-0 text gray-800"
+                className="block md:inline-block hover:text-blue-600 py-2 md:py-0 text-gray-800"
                 onClick={() => setIsOpen(false)}
               >
                 <motion.span

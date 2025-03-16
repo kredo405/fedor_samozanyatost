@@ -84,7 +84,7 @@ const DoorInstallationAndRepairPage: FC = () => {
       <section id="services" className="py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <motion.h2
-            className="text-4xl font-bold text-center mb-12 text gray-800"
+            className="text-4xl font-bold text-center mb-12 text-gray-800"
             variants={fadeInUp}
             initial="initial"
             whileInView="animate"
@@ -124,7 +124,7 @@ const DoorInstallationAndRepairPage: FC = () => {
                 className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition"
                 variants={fadeInUp}
               >
-                <h3 className="text-xl font-semibold mb-4 text gray-800">
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">
                   {service.title}
                 </h3>
                 <p className="text-gray-600">{service.desc}</p>
@@ -137,7 +137,7 @@ const DoorInstallationAndRepairPage: FC = () => {
       {/* Work Examples Slider */}
       <section id="works" className="py-20 bg-gray-50">
         <motion.h2
-          className="text-4xl font-bold text-center mb-12 text gray-800"
+          className="text-4xl font-bold text-center mb-12 text-gray-800"
           variants={fadeInUp}
           initial="initial"
           whileInView="animate"
@@ -152,7 +152,7 @@ const DoorInstallationAndRepairPage: FC = () => {
       <section id="advantages" className="py-20 bg-white">
         <div className="container mx-auto px-6 text-center">
           <motion.h2
-            className="text-4xl font-bold mb-12 text gray-800"
+            className="text-4xl font-bold mb-12 text-gray-800"
             variants={fadeInUp}
             initial="initial"
             whileInView="animate"
@@ -210,7 +210,7 @@ const DoorInstallationAndRepairPage: FC = () => {
       <section className="py-20 bg-gray-200">
         <div className="container mx-auto px-6 text-center">
           <motion.h2
-            className="text-4xl font-bold mb-12 text gray-800"
+            className="text-4xl font-bold mb-12 text-gray-800"
             variants={fadeInUp}
             initial="initial"
             whileInView="animate"
@@ -247,7 +247,7 @@ const DoorInstallationAndRepairPage: FC = () => {
                 className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition"
                 variants={fadeInUp}
               >
-                <h3 className="text-xl font-semibold mb-4 text gray-800">
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">
                   {plan.title}
                 </h3>
                 <p className="text-2xl font-bold text-blue-600 mb-4">
@@ -264,7 +264,7 @@ const DoorInstallationAndRepairPage: FC = () => {
       <section id="reviews" className="py-20 bg-gray-50">
         <div className="container mx-auto px-6 text-center">
           <motion.h2
-            className="text-4xl font-bold mb-12 text gray-800"
+            className="text-4xl font-bold mb-12 text-gray-800"
             variants={fadeInUp}
             initial="initial"
             whileInView="animate"

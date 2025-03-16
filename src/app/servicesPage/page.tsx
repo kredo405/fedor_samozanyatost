@@ -36,9 +36,12 @@ const ServicesPage: FC = () => {
       <Header />
 
       {/* Services Section */}
-      <section id="services" className="container mx-auto py-20 px-6">
+      <section
+        id="services"
+        className="container mx-auto py-20 px-6 bg-gray-100"
+      >
         <motion.h2
-          className="text-3xl font-bold text-center mb-12"
+          className="text-3xl font-bold text-center mb-12 text-gray-800"
           variants={fadeInUp}
           initial="initial"
           whileInView="animate"
@@ -58,7 +61,7 @@ const ServicesPage: FC = () => {
             className="p-6 bg-white shadow-lg rounded-lg"
             variants={fadeInUp}
           >
-            <h3 className="text-2xl font-bold mb-4 text gray-800">
+            <h3 className="text-2xl font-bold mb-4 text-gray-800">
               Установка и ремонт дверей
             </h3>
             <p className="text-gray-700 mb-4">
@@ -87,7 +90,7 @@ const ServicesPage: FC = () => {
             className="p-6 bg-white shadow-lg rounded-lg"
             variants={fadeInUp}
           >
-            <h3 className="text-2xl font-bold mb-4 text gray-800">
+            <h3 className="text-2xl font-bold mb-4 text-gray-800">
               Штукатурные работы
             </h3>
             <p className="text-gray-700 mb-4">
