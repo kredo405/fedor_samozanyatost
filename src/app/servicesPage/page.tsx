@@ -58,7 +58,7 @@ const ServicesPage: FC = () => {
             className="p-6 bg-white shadow-lg rounded-lg"
             variants={fadeInUp}
           >
-            <h3 className="text-2xl font-bold mb-4">
+            <h3 className="text-2xl font-bold mb-4 text gray-800">
               Установка и ремонт дверей
             </h3>
             <p className="text-gray-700 mb-4">
@@ -87,7 +87,9 @@ const ServicesPage: FC = () => {
             className="p-6 bg-white shadow-lg rounded-lg"
             variants={fadeInUp}
           >
-            <h3 className="text-2xl font-bold mb-4">Штукатурные работы</h3>
+            <h3 className="text-2xl font-bold mb-4 text gray-800">
+              Штукатурные работы
+            </h3>
             <p className="text-gray-700 mb-4">
               Ровные стены и идеальная отделка! Профессиональная штукатурка с
               использованием качественных материалов.
